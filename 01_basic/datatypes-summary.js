@@ -39,3 +39,14 @@ const myfunction = function(){ // =>function
 
 }
 console.log(typeof myfunction)
+
+//********** */
+
+//         Stack Memory(Primitive),        Heap Memory(Non- Primitive)
+
+//stack*** kaha use hota h ? =>Primitve mei use hota hai 
+//=> variable jo declare kiya h uska copy milta h hmko
+
+
+//Heap        ***** non- primitive mei heap
+//isme reference milta h original value ka, jo bhi change karaga original value mie change  hoga
