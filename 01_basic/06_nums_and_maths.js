@@ -4,9 +4,9 @@ const score=400
 const balance= new Number(100)   //Number type defind good way 
 // console.log(balance);
 
-// console.log(balance.toString());
-// console.log(typeof balance);  //String is object
-//console.log(balance.toFixed(2));
+console.log(balance.toString());
+console.log(typeof balance);  //String is object
+console.log(balance.toFixed(2));  //100.00
 
 const otherNumber = 123.8966  //stating se 4 digit precious ho jayaga
 
