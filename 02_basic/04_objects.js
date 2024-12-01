@@ -57,3 +57,21 @@ const users = [
 // console.log(users[0].email);
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn')); //ye property h ya nhi 
+const course = {
+  coursename: "js in hindi",
+  price: "999",
+  courseInstructor: "hitesh"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
