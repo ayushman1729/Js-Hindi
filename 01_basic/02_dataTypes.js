@@ -1,15 +1,33 @@
-"use strict"; //treat all js code as newer version
+"use strict"; // treat all JS code as newer version
 
-// alert(3+3)
-console.log("ayushman")
+// alert( 3 + 3) // we are using nodejs, not browser
 
-let name="ayushman"
-let age=19
+console.log(3 
+    +
+     3) // code readability should be high
 
-console.log(typeof ayushman)
+console.log("Hitesh")
 
-console.log(typeof age);
 
+let name = "hitesh"
+let age = 18
+let isLoggedIn = false
+let state;
+
+// number => 2 to power 53
+// bigint
+// string => ""
+// boolean => true/false
+// null => standalone value
+// undefined => 
+// symbol => unique
+
+//object
+console.log(typeof ayushman) //undefined q ki kuch dfine nhi kiya isko
+
+console.log(typeof name); //string
+
+console.log(typeof age); //number
 
 console.log(typeof undefind) //undefind
 
