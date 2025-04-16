@@ -16,7 +16,7 @@ const myArr2=new Array(1, 2, 3, 4)
 // myArr.pop()
 
 
-//myArr.unshift(9) //aaga print ho jata h
+myArr.unshift(9) //aaga print ho jata h
 // myArr.shift()  //aaga ka remove ho jata h 
 
 // console.log(myArr);
@@ -31,17 +31,17 @@ const newArr=myArr.join()  //arrays change into string
 
 // **********Slice, Splice
 
-console.log("A", myArr);
+// console.log("A", myArr);
 
 const myn1=myArr.slice(1,3) //in slice last index not print
 
-console.log(myn1);
-console.log("B", myArr);
+// console.log(myn1);
+// console.log("B", myArr);
 
 //**splice */
-console.log("A", myArr);
+// console.log("A", myArr);
 
 const myn2=myArr.splice(1,3) //in spice last index print and also the main things is original aaray is change they remove that that splice part
 
-console.log(myn1);
-console.log("B", myArr);
+// console.log(myn1);
+// console.log("B", myArr);
