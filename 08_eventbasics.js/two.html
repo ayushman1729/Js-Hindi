@@ -6,26 +6,27 @@
     <title>Document</title>
 </head>
 <body>
-   <h1>Chai aur code</h1>
-    <button id="stop" >stop</button>
+    <h1>Chai aur Code</h1>
+    <button id="stop">stop</button>
 </body>
 <script>
-    const sayHitesh=function(){
-        console.log("Hitesh");
-    } 
-
-    const changeText=function(){
-        document.querySelector('h1').
-        innerHTML="best js series"
+    const sayAyush =function() {
+        console.log("Hello World");
     }
-
-    const changeMe=setTimeout(changeText,2000)
-
-    document.querySelector('#stop').addEventListener('click',function(){
-        clearTimeout(changeMe)
-        console.log("stopped")
-    })
-    // setTimeout is used to execute a function after a certain amount of time
-    // setInterval is used to execute a function at regular intervals   
+// setTimeout(sayAyush, 2000);
+    
+    const changeText=function() { 
+          document.querySelector('h1').innerText="Hello Ayush";
+}
+ //setTimeout(changeText, 2000);
+  
+ 
+  const changeMe =setTimeout(changeText, 2000);
+  
+  document.querySelector('#stop').addEventListener('click',function(){
+    clearTimeout(changeMe);
+    console.log("STOPPED");
+    
+  })
 </script>
 </html>
