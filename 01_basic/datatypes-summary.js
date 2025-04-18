@@ -4,7 +4,8 @@
 const score=100 //number
 const scoreValue=100.2
 
-//  console.log(typeof scoreValue)
+console.log(typeof scoreValue);
+
 
 const isLoggedIn=false   //boolean is true/false
 const outsideTemp=null  //object
@@ -35,6 +36,7 @@ const heros=["shaktiman", "naagraj", "doga"]  //array=> object
     name:"ayushman",
     age:"19,"
  }
+console.log(typeof myObj);//object
 
 const myfunction = function(){ // =>function
  console.log("Hello world");
