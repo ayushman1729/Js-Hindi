@@ -6,7 +6,9 @@ let num= 33;
 
 let valueInNumber=Number(score);  //string to number  actual value is this (NaN)
 let valueInNumber2=score;
-//console.log(typeof valueInNumber2)
+// console.log(typeof valueInNumber) //number;
+
+// console.log(typeof valueInNumber2) // string hai
 
 //"33" => 33
 //"33abc"=> Nan
@@ -15,8 +17,8 @@ let valueInNumber2=score;
 let isLoggedIn=1;
 
 let booleanIsLoggedin=Boolean(isLoggedIn); //
-//console.log(booleanIsLoggedin)
-
+console.log(booleanIsLoggedin)
+console.log(typeof booleanIsLoggedin) //boolean
 //1 => true; false=>0
 //" "=>false"
 //"ayush"=> true
@@ -47,7 +49,7 @@ let negValue= -value;
 // let a=3;
 // const b=a++;
 // console.log(`a: ${a}, b: ${b}`);
-// ///console.log(`x:${x}, y:${y}`);
+//console.log(`x:${x}, y:${y}`);
 
 // let x=4;
 // const y=++x;
