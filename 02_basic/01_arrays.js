@@ -16,7 +16,7 @@ const myArr2=new Array(1, 2, 3, 4)
 // myArr.pop()
 
 
-myArr.unshift(9) //aaga print ho jata h
+//myArr.unshift(9) //aaga print ho jata h
 // myArr.shift()  //aaga ka remove ho jata h 
 
 // console.log(myArr);
@@ -25,7 +25,7 @@ myArr.unshift(9) //aaga print ho jata h
 // console.log(myArr.indexOf(8));  //return where is it give location
 
 const newArr=myArr.join()  //arrays change into string 
-// console.log(myArr); //they give array value 
+console.log(myArr); //they give array value 
 // console.log(newArr);//  //typeof newArr is showing string
 
 

@@ -1,7 +1,5 @@
-
-
- //object literals
-const mySym=Symbol("key1") //symbol ko object ka key mei print krke dikha do 
+//object literals
+const mySym=Symbol("key1") //symbol ko object ka key mei add krke dikha do 
 
 const JsUSer={
     name:"Hitsh",
@@ -12,7 +10,7 @@ const JsUSer={
     email:"hitesh@google.com",
     lastlogindays:["Monday","Saturday"]
 
-// }
+ }
 
 // console.log(JsUSer.email),
 // console.log(JsUSer["email"]),
@@ -25,9 +23,8 @@ const JsUSer={
 // JsUSer.email="hitesh@microsoft.com"
 
 // console.log(JsUSer);
-
 JsUSer.greeting= function(){
-    // console.log("HELLO JS USER");   
+    console.log(`HELLO JS USER`);   
 }
 
 JsUSer.greetingTwo= function(){
