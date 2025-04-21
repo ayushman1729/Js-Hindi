@@ -17,21 +17,24 @@ function sayMyName() {
 // addTwoNumbers(3,"4") //34
 // addTwoNumbers(3,null) //3  //null is argument
 
-// const result= addTwoNumbers(3,5)
-// console.log("Result : "+ result);  // undefined
+const result1= addTwoNumbers(3,5)
+//console.log("Result : "+ result1);  // undefined
 
 function addTwoNumbers(number1, number2) {
   // let result= number1 + number2
   // return result
-
   return number1 + number2;
 }
+
+function addtwonumbers (num1, num2) {
+return num1+ num2
+}
 const result = addTwoNumbers(3, 5);
-console.log("Result : " + result);
+//console.log("Result : " + result);
 
 function loginUserMessage(username = "sam") {
   if (!username) {
-    console.log("PLease enter a username");
+  //  console.log("PLease enter a username");
     return;
   }
   return `${username} just logged in`;
@@ -55,7 +58,7 @@ function handleObject(anyobject) {
 console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
 
 }
-//handleObject(user)
+// handleObject(user)
 
 handleObject( {
   username:"sam",
